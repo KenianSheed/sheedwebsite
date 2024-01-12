@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	padding-bottom: 5px;
+}
+body{
+	font-family: 'Bebas Neue', cursive;
+	background-color: #ffffff;
+}
+.btn{
+	display: inline-block;
+	background: #000000;
+	color: #ffffff;
+	padding: 20px 50px;
+	margin: 30px 0;
+	border-radius:30px;
+	transition: background 0.5s;
+}
+.btn:hover{
+	background: #808080;
+}
+.form-container-register{
+	background: #fff;
+	width: 700px;
+	height: 500px;
+	position: relative;
+	text-align: center;
+	padding: 20px 0;
+	margin-left: -300px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 1.0);
+	overflow: hidden;
+}
